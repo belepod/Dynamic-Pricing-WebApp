@@ -922,7 +922,6 @@ if df_processed is not None:
     with tab_profit_sim:
         st.header("Profitability Simulation (Original Data)")
         st.write("Comparing estimated total revenue and profit using static base prices versus the default dynamic pricing strategy.")
-        st.warning(f"Note: Profit calculation assumes a cost factor of {ASSUMED_COST_FACTOR:.0%}. Replace with actual costs for real analysis.")
 
         stat_rev, stat_prof, dyn_rev, dyn_prof = sim_results_base
 
